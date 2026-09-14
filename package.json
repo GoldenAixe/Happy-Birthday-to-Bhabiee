@@ -6,7 +6,7 @@
   "scripts": {
     "start": "yarn dev",
     "dev": "parcel",
-    "build": "parcel build",
+    "build": "parcel build --public-url ./",
     "clean": "rm -rf dist"
   },
   "staticFiles": {
